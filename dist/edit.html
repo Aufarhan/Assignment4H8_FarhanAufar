@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Edit Profile</title>
+  <link rel="stylesheet" href="./output.css">
+</head>
+
+<body>
+  <main>
+    <div class="my-10">
+      <h1 class="text-center text-3xl font-semibold">Edit Profile</h1>
+    </div>
+
+    <!-- div: container -->
+    <div class="bg-slate-100 rounded p-5 w-[60%] mx-auto">
+      <!-- div: card -->
+      <div class="h-auto bg-white mx-auto py-10 shadow rounded border px-5 flex flex-col">
+
+        <!-- div: form -->
+        <div>
+          <form action="">
+
+            <!-- div: name  -->
+            <div class="grid grid-flow-row my-3">
+              <label for="name" class="font-semibold">Nama</label>
+              <input type="text" name="name" class="border border-black px-4 py-1" id="nameInput">
+            </div>
+            <!-- div: name end -->
+
+            <!-- div: role -->
+            <div class="grid grid-flow-row my-3">
+              <label for="role" class="font-semibold">Role</label>
+              <input type="text" name="role" class="border border-black px-4 py-1" value="" id="roleInput">
+            </div>
+            <!-- div: role end -->
+
+            <!-- div: availability -->
+            <div class="grid grid-flow-row my-3">
+              <label for="role" class="font-semibold">Availability</label>
+              <input type="text" name="role" class="border border-black px-4 py-1" value="" id="availabilityInput">
+            </div>
+            <!-- div: availability end -->
+
+            <!-- div: usia -->
+            <div class="grid grid-flow-row my-3">
+              <label for="usia" class="font-semibold">Usia</label>
+              <input type="number" name="usia" class="border border-black px-4 py-1" value="" id="ageInput">
+            </div>
+            <!-- div: usia end -->
+
+            <!-- div: lokasi -->
+            <div class="grid grid-flow-row my-3">
+              <label for="lokasi" class="font-semibold">Lokasi</label>
+              <input type="text" name="lokasi" class="border border-black px-4 py-1" value="" id="locationInput">
+            </div>
+            <!-- div: lokasi end -->
+
+            <!-- div: yoe -->
+            <div class="grid grid-flow-row my-3">
+              <label for="yoe" class="font-semibold">Years of Experience</label>
+              <input type="number" name="yoe" class="border border-black px-4 py-1" value="" id="yoeInput">
+            </div>
+            <!-- div: yoe end -->
+
+            <!-- div: email -->
+            <div class="grid grid-flow-row my-3">
+              <label for="email" class="font-semibold">Email</label>
+              <input type="email" name="email" class="border border-black px-4 py-1" value="" id="emailInput">
+            </div>
+            <!-- div: email end -->
+            <div class="mx-auto bg-green-700 text-white p-2 rounded shadow-green-700">
+              <a href="index.html" id="submit" class="w-full flex justify-center">Submit</a>
+            </div>
+          </form>
+          <!-- div: form end -->
+
+        </div>
+        <!-- div: card end -->
+      </div>
+      <!-- div: container end -->
+    </div>
+  </main>
+
+  <script src="../javascript/script.js"></script>
+</body>
+
+</html>
